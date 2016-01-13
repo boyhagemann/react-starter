@@ -9,8 +9,7 @@
     "build:server": "webpack --config server.config.js -p --devtool source-map && exit 0",
     "build": "npm run build:client && npm run build:server && exit 0",
     "server": "node server",
-    "dev": "env BASE_URL=http://localhost:8080 node server | webpack-dev-server --config client.config.js --hot --inline",
-    "analyze": "webpack --profile --json > stats.json && exit 0"
+    "dev": "env BASE_URL=http://localhost:8080 node server | webpack-dev-server --config client.config.js --hot --inline"
   },
   "author": "",
   "license": "ISC",
