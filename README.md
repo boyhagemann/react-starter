@@ -1,5 +1,8 @@
 # react-starter
-Quikc starter kit for a minimal isomorphic React.js setup built with Webpack.
+Quick starter kit for a minimal isomorphic React.js setup built with Webpack.
+
+### Installation
+Run `npm install` to get things started.
 
 ### For development
 Run `npm run dev` to run a server at `http://localhost:3000`. 
